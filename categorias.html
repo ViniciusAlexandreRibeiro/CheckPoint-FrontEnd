@@ -30,7 +30,83 @@
     </div>
   </header>
 
+  <main class="container my-5">
+    <div class="row">
+      <aside class="col-md-3 mb-4">
+        <div class="card mb-3">
+          <div class="card-header bg-success text-white">Filtrar por Preço</div>
+          <div class="card-body">
+            <input type="range" class="form-range" min="10" max="500" id="precoRange">
+            <span id="precoValor">Até R$ 500</span>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header bg-success text-white">Tipo de Produto</div>
+          <div class="card-body">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="tecnologia" id="tecnologiaCheck">
+              <label class="form-check-label" for="tecnologiaCheck">Tecnologia Verde</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="casa" id="casaCheck">
+              <label class="form-check-label" for="casaCheck">Casa Sustentável</label>
+            </div>
+          </div>
+        </div>
+      </aside>
 
+      <section class="col-md-9">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          
+          <div class="col"><div class="card h-100"><img src="img/tecnologia1.jpg" class="card-img-top" alt="Fone Solar"><div class="card-body"><h5 class="card-title">Fone Solar</h5><p class="card-text">Fone de ouvido recarregável por energia solar.</p><span class="fw-bold">R$ 199,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+          
+
+          <div class="col"><div class="card h-100"><img src="img/tecnologia2.jpg" class="card-img-top" alt="Carregador Ecológico"><div class="card-body"><h5 class="card-title">Carregador Ecológico</h5><p class="card-text">Carregador portátil feito de materiais reciclados.</p><span class="fw-bold">R$ 99,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+          
+
+          <div class="col"><div class="card h-100"><img src="img/tecnologia3.jpg" class="card-img-top" alt="Luminária LED Solar"><div class="card-body"><h5 class="card-title">Luminária LED Solar</h5><p class="card-text">Luminária LED alimentada por energia solar.</p><span class="fw-bold">R$ 129,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+          
+
+          <div class="col"><div class="card h-100"><img src="img/tecnologia4.jpg" class="card-img-top" alt="Relógio Solar"><div class="card-body"><h5 class="card-title">Relógio Solar</h5><p class="card-text">Relógio digital alimentado por energia solar, resistente à água.</p><span class="fw-bold">R$ 249,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+          
+
+          <div class="col"><div class="card h-100"><img src="img/tecnologia12.jpg" class="card-img-top" alt="Painel Solar Portátil"><div class="card-body"><h5 class="card-title">Painel Solar Portátil</h5><p class="card-text">Ideal para camping e viagens.</p><span class="fw-bold">R$ 299,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <div class="col"><div class="card h-100"><img src="img/casa1.jpg" class="card-img-top" alt="Kit Composteira"><div class="card-body"><h5 class="card-title">Kit Composteira</h5><p class="card-text">Transforme resíduos orgânicos em adubo natural.</p><span class="fw-bold">R$ 149,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa2.jpg" class="card-img-top" alt="Filtro de Água Ecológico"><div class="card-body"><h5 class="card-title">Filtro de Água Ecológico</h5><p class="card-text">Filtro de água feito com materiais naturais.</p><span class="fw-bold">R$ 99,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa3.jpg" class="card-img-top" alt="Escova de Bambu"><div class="card-body"><h5 class="card-title">Escova de Bambu</h5><p class="card-text">Escova de dentes biodegradável.</p><span class="fw-bold">R$ 19,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa4.jpg" class="card-img-top" alt="Sabão Natural"><div class="card-body"><h5 class="card-title">Sabão Natural</h5><p class="card-text">Sabão ecológico feito com óleos vegetais e sem químicos agressivos.</p><span class="fw-bold">R$ 14,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa5.jpg" class="card-img-top" alt="Copo de Bambu"><div class="card-body"><h5 class="card-title">Copo de Bambu</h5><p class="card-text">Copo reutilizável feito de bambu, ideal para bebidas quentes e frias.</p><span class="fw-bold">R$ 24,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa6.jpg" class="card-img-top" alt="Saco Ecológico"><div class="card-body"><h5 class="card-title">Saco Ecológico</h5><p class="card-text">Saco para compras feito de algodão orgânico, reutilizável e resistente.</p><span class="fw-bold">R$ 12,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa7.jpg" class="card-img-top" alt="Escova de Coco"><div class="card-body"><h5 class="card-title">Escova de Coco</h5><p class="card-text">Escova multiuso feita de fibras naturais de coco.</p><span class="fw-bold">R$ 9,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa9.jpg" class="card-img-top" alt="Porta Sabão de Bambu"><div class="card-body"><h5 class="card-title">Porta Sabão de Bambu</h5><p class="card-text">Porta sabão biodegradável e resistente à umidade.</p><span class="fw-bold">R$ 14,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+
+          <div class="col"><div class="card h-100"><img src="img/casa10.jpg" class="card-img-top" alt="Saboneteira de Madeira"><div class="card-body"><h5 class="card-title">Saboneteira de Madeira</h5><p class="card-text">Feita de madeira reflorestada, mantém o sabonete seco.</p><span class="fw-bold">R$ 11,90</span><a href="produto.html" class="btn btn-success w-100 mb-2">Ver Detalhes</a><button class="btn btn-outline-success btn-add-cart w-100"><i class="fa fa-shopping-cart"></i> Adicionar ao Carrinho</button></div></div></div>
+
+        </div>
+      </section>
+    </div>
+  </main>
 
     <footer class="bg-dark text-light py-4 mt-5">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
@@ -46,6 +122,6 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
+
 </body>
 </html>
